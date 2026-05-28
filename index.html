@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spark Vista | Innovation & Tech Hub</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#0f172a;
+      color:white;
+      line-height:1.6;
+    }
+
+    header{
+      background:linear-gradient(to right,#1e3a8a,#0ea5e9);
+      padding:20px;
+      text-align:center;
+    }
+
+    header h1{
+      font-size:3rem;
+    }
+
+    header p{
+      margin-top:10px;
+      font-size:1.1rem;
+    }
+
+    nav{
+      background:#111827;
+      padding:15px;
+      text-align:center;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:#38bdf8;
+    }
+
+    .hero{
+      padding:80px 20px;
+      text-align:center;
+    }
+
+    .hero h2{
+      font-size:2.5rem;
+      margin-bottom:20px;
+    }
+
+    .hero p{
+      max-width:700px;
+      margin:auto;
+      font-size:1.1rem;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:25px;
+      padding:12px 25px;
+      background:#0ea5e9;
+      color:white;
+      text-decoration:none;
+      border-radius:8px;
+      font-weight:bold;
+    }
+
+    .section{
+      padding:60px 20px;
+    }
+
+    .section-title{
+      text-align:center;
+      margin-bottom:40px;
+      font-size:2rem;
+      color:#38bdf8;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+    }
+
+    .card{
+      background:#1e293b;
+      padding:25px;
+      border-radius:10px;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+      background:#334155;
+    }
+
+    .card h3{
+      margin-bottom:15px;
+      color:#38bdf8;
+    }
+
+    .blog-links a{
+      display:block;
+      margin:10px 0;
+      color:#7dd3fc;
+      text-decoration:none;
+    }
+
+    .blog-links a:hover{
+      text-decoration:underline;
+    }
+
+    form{
+      max-width:600px;
+      margin:auto;
+      display:flex;
+      flex-direction:column;
+    }
+
+    input, textarea{
+      margin-bottom:15px;
+      padding:12px;
+      border:none;
+      border-radius:6px;
+    }
+
+    button{
+      padding:12px;
+      background:#0ea5e9;
+      color:white;
+      border:none;
+      border-radius:6px;
+      font-size:1rem;
+      cursor:pointer;
+    }
+
+    footer{
+      background:#111827;
+      text-align:center;
+      padding:20px;
+      margin-top:40px;
+    }
+
+    @media(max-width:768px){
+      header h1{
+        font-size:2.2rem;
+      }
+
+      .hero h2{
+        font-size:2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Spark Vista</h1>
+    <p>Tech • Innovation • Opportunities • Inspiration</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#innovations">Innovations</a>
+    <a href="#blog">Ideas Hub</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Igniting Innovative Ideas For The Future</h2>
+    <p>
+      Spark Vista is a modern tech and innovation hub where creative minds
+      discover opportunities, innovative solutions, startup ideas,
+      business inspiration, and future technologies.
+    </p>
+
+    <a href="#blog" class="btn">Explore Ideas</a>
+  </section>
+
+  <section class="section" id="about">
+    <h2 class="section-title">About Spark Vista</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Innovation Hub</h3>
+        <p>
+          Discover groundbreaking ideas and solutions shaping the future
+          of technology and business.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Opportunities</h3>
+        <p>
+          Learn about online businesses, startups, digital skills,
+          and opportunities for young innovators.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Inspiration</h3>
+        <p>
+          Get inspired by creative thinkers, entrepreneurs,
+          and transformative tech concepts.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="innovations">
+    <h2 class="section-title">Trending Innovations</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Artificial Intelligence</h3>
+        <p>
+          Explore how AI is transforming businesses, education,
+          healthcare, and modern technology.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Smart Startups</h3>
+        <p>
+          Learn how innovative startups are creating solutions
+          to everyday problems.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Digital Opportunities</h3>
+        <p>
+          Discover online income opportunities, freelancing,
+          and tech career pathways.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="blog">
+    <h2 class="section-title">Ideas & Opportunities</h2>
+
+    <div class="blog-links">
+      <a href="#">➜ 10 Innovative Startup Ideas for Students</a>
+      <a href="#">➜ How AI is Changing the Future</a>
+      <a href="#">➜ Best Online Skills To Learn in 2026</a>
+      <a href="#">➜ Turning Creative Ideas Into Businesses</a>
+      <a href="#">➜ Opportunities in Tech for Young Innovators</a>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2 class="section-title">Contact Us</h2>
+
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message"></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Spark Vista | Innovation & Tech Hub</p>
+  </footer>
+
+</body>
+</html>
